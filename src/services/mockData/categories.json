@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "name": "Women",
+    "subcategories": ["Topwear", "Bottomwear", "Dresses", "Outerwear", "Footwear", "Accessories"],
+    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=400&h=400&fit=crop"
+  },
+  {
+    "Id": 2,
+    "name": "Men",
+    "subcategories": ["Topwear", "Bottomwear", "Footwear", "Accessories"],
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+  },
+  {
+    "Id": 3,
+    "name": "Kids",
+    "subcategories": ["Topwear", "Bottomwear", "Outerwear", "Footwear", "Sleepwear", "Accessories"],
+    "imageUrl": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=400&h=400&fit=crop"
+  },
+  {
+    "Id": 4,
+    "name": "Home & Living",
+    "subcategories": ["Decor", "Furniture", "Lighting", "Bedding", "Kitchen"],
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop"
+  },
+  {
+    "Id": 5,
+    "name": "Beauty",
+    "subcategories": ["Skincare", "Makeup", "Haircare", "Fragrance", "Tools"],
+    "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=400&fit=crop"
+  }
+]

@@ -1,0 +1,323 @@
+[
+  {
+    "Id": 1,
+    "name": "Casual Cotton T-Shirt",
+    "brand": "Nike",
+    "price": 1299,
+    "discountPrice": 899,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Blue", "Black", "White"],
+    "category": "men",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 2,
+    "name": "Slim Fit Jeans",
+    "brand": "Zara",
+    "price": 2499,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["28", "30", "32", "34"],
+    "colors": ["Black", "Blue", "Grey"],
+    "category": "men",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 3,
+    "name": "Floral Print Dress",
+    "brand": "H&M",
+    "price": 1899,
+    "discountPrice": 1299,
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Pink", "Yellow", "Blue"],
+    "category": "women",
+    "subcategory": "Dresses",
+    "inStock": true
+  },
+  {
+    "Id": 4,
+    "name": "Leather Jacket",
+    "brand": "Zara",
+    "price": 4999,
+    "discountPrice": 3499,
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "Brown"],
+    "category": "women",
+    "subcategory": "Outerwear",
+    "inStock": true
+  },
+  {
+    "Id": 5,
+    "name": "Running Sneakers",
+    "brand": "Adidas",
+    "price": 3999,
+    "discountPrice": 2999,
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["7", "8", "9", "10", "11"],
+    "colors": ["White", "Black", "Red"],
+    "category": "men",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 6,
+    "name": "Midi Skirt",
+    "brand": "Forever 21",
+    "price": 1299,
+    "discountPrice": 799,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Black", "Navy", "Brown"],
+    "category": "women",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 7,
+    "name": "Formal Shirt",
+    "brand": "Uniqlo",
+    "price": 1799,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White", "Blue", "Pink"],
+    "category": "men",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 8,
+    "name": "Summer Sandals",
+    "brand": "Forever 21",
+    "price": 999,
+    "discountPrice": 699,
+    "images": [
+      "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["5", "6", "7", "8", "9"],
+    "colors": ["Tan", "Black", "White"],
+    "category": "women",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 9,
+    "name": "Kids Cotton Pajamas",
+    "brand": "H&M",
+    "price": 799,
+    "discountPrice": 599,
+    "images": [
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "colors": ["Pink", "Blue", "Yellow"],
+    "category": "kids",
+    "subcategory": "Sleepwear",
+    "inStock": true
+  },
+  {
+    "Id": 10,
+    "name": "Kids Denim Jacket",
+    "brand": "Zara",
+    "price": 1499,
+    "discountPrice": 999,
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["4-5Y", "6-7Y", "8-9Y", "10-11Y"],
+    "colors": ["Blue", "Black"],
+    "category": "kids",
+    "subcategory": "Outerwear",
+    "inStock": true
+  },
+  {
+    "Id": 11,
+    "name": "Throw Pillow Set",
+    "brand": "IKEA",
+    "price": 1299,
+    "discountPrice": 999,
+    "images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["16x16", "18x18", "20x20"],
+    "colors": ["Grey", "Blue", "Pink"],
+    "category": "home",
+    "subcategory": "Decor",
+    "inStock": true
+  },
+  {
+    "Id": 12,
+    "name": "Ceramic Vase",
+    "brand": "West Elm",
+    "price": 899,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "colors": ["White", "Terracotta", "Black"],
+    "category": "home",
+    "subcategory": "Decor",
+    "inStock": true
+  },
+  {
+    "Id": 13,
+    "name": "Moisturizing Face Cream",
+    "brand": "The Ordinary",
+    "price": 699,
+    "discountPrice": 499,
+    "images": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["30ml", "50ml", "100ml"],
+    "colors": ["Clear"],
+    "category": "beauty",
+    "subcategory": "Skincare",
+    "inStock": true
+  },
+  {
+    "Id": 14,
+    "name": "Matte Lipstick",
+    "brand": "MAC",
+    "price": 1299,
+    "discountPrice": 999,
+    "images": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["3g"],
+    "colors": ["Red", "Pink", "Brown"],
+    "category": "beauty",
+    "subcategory": "Makeup",
+    "inStock": true
+  },
+  {
+    "Id": 15,
+    "name": "Wireless Earbuds",
+    "brand": "Apple",
+    "price": 12999,
+    "discountPrice": 9999,
+    "images": [
+      "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["White", "Black"],
+    "category": "men",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 16,
+    "name": "Crossbody Bag",
+    "brand": "Coach",
+    "price": 8999,
+    "discountPrice": 6999,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Black", "Brown", "Red"],
+    "category": "women",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 17,
+    "name": "School Backpack",
+    "brand": "JanSport",
+    "price": 1999,
+    "discountPrice": 1499,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Blue", "Pink", "Black"],
+    "category": "kids",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 18,
+    "name": "Table Lamp",
+    "brand": "IKEA",
+    "price": 1499,
+    "discountPrice": 1199,
+    "images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["White", "Black", "Gold"],
+    "category": "home",
+    "subcategory": "Lighting",
+    "inStock": true
+  },
+  {
+    "Id": 19,
+    "name": "Hair Serum",
+    "brand": "L'Oreal",
+    "price": 899,
+    "discountPrice": 699,
+    "images": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["50ml", "100ml"],
+    "colors": ["Clear"],
+    "category": "beauty",
+    "subcategory": "Haircare",
+    "inStock": true
+  },
+  {
+    "Id": 20,
+    "name": "Casual Blazer",
+    "brand": "Zara",
+    "price": 3499,
+    "discountPrice": 2499,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Navy", "Grey", "Black"],
+    "category": "women",
+    "subcategory": "Outerwear",
+    "inStock": true
+  }
+]

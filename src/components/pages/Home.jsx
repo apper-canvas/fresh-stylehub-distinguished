@@ -33,8 +33,8 @@ const Home = () => {
         productService.getAll()
       ]);
       
-      setCategories(categoriesData);
-      setFeaturedProducts(productsData.slice(0, 8));
+setCategories(categoriesData);
+      setFeaturedProducts(productsData.slice(0, 12));
     } catch (err) {
       setError("Failed to load data. Please try again.");
       console.error("Error loading data:", err);

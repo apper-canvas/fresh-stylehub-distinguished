@@ -317,7 +317,487 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["Navy", "Grey", "Black"],
     "category": "women",
+"subcategory": "Outerwear",
+    "inStock": true
+  },
+  {
+    "Id": 21,
+    "name": "Athletic Shorts",
+    "brand": "Nike",
+    "price": 1599,
+    "discountPrice": 1199,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "Navy", "Grey"],
+    "category": "men",
+    "subcategory": "Activewear",
+    "inStock": true
+  },
+  {
+    "Id": 22,
+    "name": "Polo Shirt",
+    "brand": "Ralph Lauren",
+    "price": 2299,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White", "Navy", "Red"],
+    "category": "men",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 23,
+    "name": "Dress Pants",
+    "brand": "Hugo Boss",
+    "price": 3299,
+    "discountPrice": 2499,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["30", "32", "34", "36"],
+    "colors": ["Black", "Navy", "Charcoal"],
+    "category": "men",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 24,
+    "name": "Leather Wallet",
+    "brand": "Tommy Hilfiger",
+    "price": 1899,
+    "discountPrice": 1399,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Black", "Brown", "Tan"],
+    "category": "men",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 25,
+    "name": "Casual Loafers",
+    "brand": "Clarks",
+    "price": 4599,
+    "discountPrice": 3299,
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["7", "8", "9", "10", "11"],
+    "colors": ["Brown", "Black", "Navy"],
+    "category": "men",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 26,
+    "name": "Cardigan Sweater",
+    "brand": "Zara",
+    "price": 2799,
+    "discountPrice": 1999,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Beige", "Pink", "Grey"],
+    "category": "women",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 27,
+    "name": "High-Waisted Jeans",
+    "brand": "Levi's",
+    "price": 3199,
+    "discountPrice": 2399,
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["26", "28", "30", "32"],
+    "colors": ["Blue", "Black", "Light Blue"],
+    "category": "women",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 28,
+    "name": "Evening Clutch",
+    "brand": "Michael Kors",
+    "price": 5999,
+    "discountPrice": 4299,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Gold", "Silver", "Black"],
+    "category": "women",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 29,
+    "name": "Ankle Boots",
+    "brand": "Steve Madden",
+    "price": 3799,
+    "discountPrice": 2799,
+    "images": [
+      "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["5", "6", "7", "8", "9"],
+    "colors": ["Black", "Brown", "Tan"],
+    "category": "women",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 30,
+    "name": "Wrap Dress",
+    "brand": "Mango",
+    "price": 2399,
+    "discountPrice": 1799,
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Red", "Blue", "Green"],
+    "category": "women",
+    "subcategory": "Dresses",
+    "inStock": true
+  },
+  {
+    "Id": 31,
+    "name": "Kids Sneakers",
+    "brand": "Adidas",
+    "price": 1999,
+    "discountPrice": 1499,
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["10", "11", "12", "13", "1"],
+    "colors": ["White", "Pink", "Blue"],
+    "category": "kids",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 32,
+    "name": "Graphic T-Shirt",
+    "brand": "Disney",
+    "price": 899,
+    "discountPrice": 699,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "colors": ["Red", "Blue", "Yellow"],
+    "category": "kids",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 33,
+    "name": "Play Shorts",
+    "brand": "Carter's",
+    "price": 699,
+    "discountPrice": 499,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "colors": ["Blue", "Green", "Red"],
+    "category": "kids",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 34,
+    "name": "Winter Jacket",
+    "brand": "North Face",
+    "price": 2999,
+    "discountPrice": 2199,
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["4-5Y", "6-7Y", "8-9Y", "10-11Y"],
+    "colors": ["Navy", "Pink", "Green"],
+    "category": "kids",
     "subcategory": "Outerwear",
+    "inStock": true
+  },
+  {
+    "Id": 35,
+    "name": "Lunch Box",
+    "brand": "Bentgo",
+    "price": 1199,
+    "discountPrice": 899,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Blue", "Pink", "Green"],
+    "category": "kids",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 36,
+    "name": "Coffee Table",
+    "brand": "West Elm",
+    "price": 8999,
+    "discountPrice": 6999,
+    "images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["48x24", "60x30"],
+    "colors": ["Walnut", "Oak", "Black"],
+    "category": "home",
+    "subcategory": "Furniture",
+    "inStock": true
+  },
+  {
+    "Id": 37,
+    "name": "Kitchen Utensil Set",
+    "brand": "OXO",
+    "price": 2499,
+    "discountPrice": 1899,
+    "images": [
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Stainless Steel", "Black"],
+    "category": "home",
+    "subcategory": "Kitchen",
+    "inStock": true
+  },
+  {
+    "Id": 38,
+    "name": "Wall Art Print",
+    "brand": "Society6",
+    "price": 1599,
+    "discountPrice": 1199,
+    "images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["16x20", "20x24", "24x36"],
+    "colors": ["Multicolor"],
+    "category": "home",
+    "subcategory": "Decor",
+    "inStock": true
+  },
+  {
+    "Id": 39,
+    "name": "Floor Lamp",
+    "brand": "CB2",
+    "price": 3499,
+    "discountPrice": 2799,
+    "images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Brass", "Black", "White"],
+    "category": "home",
+    "subcategory": "Lighting",
+    "inStock": true
+  },
+  {
+    "Id": 40,
+    "name": "Area Rug",
+    "brand": "Rugs USA",
+    "price": 4999,
+    "discountPrice": 3499,
+    "images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["5x7", "8x10", "9x12"],
+    "colors": ["Beige", "Grey", "Blue"],
+    "category": "home",
+    "subcategory": "Decor",
+    "inStock": true
+  },
+  {
+    "Id": 41,
+    "name": "Vitamin C Serum",
+    "brand": "Skinceuticals",
+    "price": 1999,
+    "discountPrice": 1499,
+    "images": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["30ml"],
+    "colors": ["Clear"],
+    "category": "beauty",
+    "subcategory": "Skincare",
+    "inStock": true
+  },
+  {
+    "Id": 42,
+    "name": "Foundation",
+    "brand": "Fenty Beauty",
+    "price": 2499,
+    "discountPrice": 1999,
+    "images": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["32ml"],
+    "colors": ["Light", "Medium", "Dark"],
+    "category": "beauty",
+    "subcategory": "Makeup",
+    "inStock": true
+  },
+  {
+    "Id": 43,
+    "name": "Shampoo",
+    "brand": "Olaplex",
+    "price": 1799,
+    "discountPrice": 1399,
+    "images": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["250ml", "500ml"],
+    "colors": ["Clear"],
+    "category": "beauty",
+    "subcategory": "Haircare",
+    "inStock": true
+  },
+  {
+    "Id": 44,
+    "name": "Eye Cream",
+    "brand": "Kiehl's",
+    "price": 2299,
+    "discountPrice": 1799,
+    "images": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["15ml"],
+    "colors": ["Clear"],
+    "category": "beauty",
+    "subcategory": "Skincare",
+    "inStock": true
+  },
+  {
+    "Id": 45,
+    "name": "Eyeshadow Palette",
+    "brand": "Urban Decay",
+    "price": 3299,
+    "discountPrice": 2499,
+    "images": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Neutral", "Smoky", "Colorful"],
+    "category": "beauty",
+    "subcategory": "Makeup",
+    "inStock": true
+  },
+  {
+    "Id": 46,
+    "name": "Hoodie",
+    "brand": "Champion",
+    "price": 2199,
+    "discountPrice": 1599,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Grey", "Black", "Navy"],
+    "category": "men",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 47,
+    "name": "Maxi Dress",
+    "brand": "Free People",
+    "price": 3799,
+    "discountPrice": 2899,
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Floral", "Solid Blue", "Black"],
+    "category": "women",
+    "subcategory": "Dresses",
+    "inStock": true
+  },
+  {
+    "Id": 48,
+    "name": "Rain Boots",
+    "brand": "Hunter",
+    "price": 1299,
+    "discountPrice": 999,
+    "images": [
+      "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["10", "11", "12", "13"],
+    "colors": ["Yellow", "Red", "Blue"],
+    "category": "kids",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 49,
+    "name": "Bookshelf",
+    "brand": "IKEA",
+    "price": 3999,
+    "discountPrice": 2999,
+    "images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["3-Tier", "4-Tier", "5-Tier"],
+    "colors": ["White", "Oak", "Black"],
+    "category": "home",
+    "subcategory": "Furniture",
+    "inStock": true
+  },
+  {
+    "Id": 50,
+    "name": "Mascara",
+    "brand": "Maybelline",
+    "price": 899,
+    "discountPrice": 699,
+    "images": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Black", "Brown"],
+    "category": "beauty",
+    "subcategory": "Makeup",
     "inStock": true
   }
 ]

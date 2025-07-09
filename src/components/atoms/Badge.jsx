@@ -11,10 +11,11 @@ const Badge = React.forwardRef(({
     primary: "bg-primary text-white",
     secondary: "bg-secondary text-white",
     accent: "bg-accent text-white",
-    success: "bg-success text-white",
+success: "bg-success text-white",
     warning: "bg-warning text-white",
     error: "bg-error text-white",
-    discount: "bg-gradient-to-r from-error to-primary text-white"
+    discount: "bg-gradient-to-r from-error to-primary text-white",
+    sale: "bg-gradient-to-r from-primary to-accent text-white"
   };
 
   return (

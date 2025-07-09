@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 import ApperIcon from "@/components/ApperIcon";
@@ -10,10 +10,37 @@ import { toast } from "react-toastify";
 const ProductCard = ({ product, onAddToCart, onAddToWishlist, onQuickView, isInWishlist }) => {
   const [isWishlisted, setIsWishlisted] = useState(isInWishlist);
   const [imageError, setImageError] = useState(false);
+  const [timeRemaining, setTimeRemaining] = useState(null);
 
   const discountPercentage = product.discountPrice 
     ? Math.round(((product.price - product.discountPrice) / product.price) * 100)
     : 0;
+
+  useEffect(() => {
+    if (product.saleEndTime) {
+      const calculateTimeRemaining = () => {
+        const now = new Date().getTime();
+        const endTime = new Date(product.saleEndTime).getTime();
+        const difference = endTime - now;
+
+        if (difference > 0) {
+          const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+          setTimeRemaining({ days, hours, minutes, seconds, total: difference });
+        } else {
+          setTimeRemaining(null);
+        }
+      };
+
+      calculateTimeRemaining();
+      const interval = setInterval(calculateTimeRemaining, 1000);
+
+      return () => clearInterval(interval);
+    }
+  }, [product.saleEndTime]);
 
   const handleWishlistToggle = () => {
     setIsWishlisted(!isWishlisted);
@@ -26,6 +53,9 @@ const ProductCard = ({ product, onAddToCart, onAddToWishlist, onQuickView, isInW
     toast.success("Added to cart");
   };
 
+  const formatTime = (value) => String(value).padStart(2, '0');
+
+  const isUrgent = timeRemaining && timeRemaining.total < 24 * 60 * 60 * 1000; // Less than 24 hours
   return (
     <motion.div
       whileHover={{ scale: 1.02 }}
@@ -47,17 +77,60 @@ const ProductCard = ({ product, onAddToCart, onAddToWishlist, onQuickView, isInW
                 <ApperIcon name="Image" className="w-16 h-16 text-gray-400" />
               </div>
             )}
-          </div>
+</div>
           
-          {discountPercentage > 0 && (
-            <Badge 
-              variant="discount" 
-              className="absolute top-2 left-2 text-xs font-bold"
-            >
-              {discountPercentage}% OFF
-            </Badge>
+          <div className="absolute top-2 left-2 flex flex-col gap-1">
+            {product.saleEndTime && timeRemaining && (
+              <Badge 
+                variant="sale" 
+                className="text-xs font-bold"
+              >
+                SALE
+              </Badge>
+            )}
+            {discountPercentage > 0 && (
+              <Badge 
+                variant="discount" 
+                className="text-xs font-bold"
+              >
+                {discountPercentage}% OFF
+              </Badge>
+            )}
+          </div>
+
+          {timeRemaining && (
+            <div className="absolute bottom-2 left-2 right-2">
+              <div className={cn(
+                "bg-white/95 backdrop-blur-sm rounded-lg p-2 text-center border",
+                isUrgent ? "border-error/20" : "border-gray-200"
+              )}>
+                <div className={cn(
+                  "text-xs font-semibold mb-1",
+                  isUrgent ? "text-error" : "text-secondary-600"
+                )}>
+                  {isUrgent ? "HURRY!" : "Sale ends in"}
+                </div>
+                <div className="flex justify-center gap-1 text-xs">
+                  {timeRemaining.days > 0 && (
+                    <span className={cn(
+                      "font-mono font-bold",
+                      isUrgent ? "text-error" : "text-secondary-700"
+                    )}>
+                      {timeRemaining.days}d
+                    </span>
+                  )}
+                  <span className={cn(
+                    "font-mono font-bold",
+                    isUrgent ? "text-error" : "text-secondary-700"
+                  )}>
+                    {formatTime(timeRemaining.hours)}:{formatTime(timeRemaining.minutes)}:{formatTime(timeRemaining.seconds)}
+                  </span>
+                </div>
+              </div>
+            </div>
           )}
-<div className="absolute top-2 right-2 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+
+          <div className="absolute top-2 right-2 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
             <Button
               variant="ghost"
               size="sm"

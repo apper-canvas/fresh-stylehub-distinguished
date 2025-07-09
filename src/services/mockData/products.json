@@ -5,6 +5,7 @@
     "brand": "Nike",
     "price": 1299,
     "discountPrice": 899,
+    "saleEndTime": "12/20/2024 11:59:59 PM",
     "images": [
       "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
       "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop",
@@ -32,12 +33,13 @@
     "subcategory": "Bottomwear",
     "inStock": true
   },
-  {
+{
     "Id": 3,
     "name": "Floral Print Dress",
     "brand": "H&M",
     "price": 1899,
     "discountPrice": 1299,
+    "saleEndTime": "2024-12-18T12:00:00Z",
     "images": [
       "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop",
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
@@ -48,12 +50,13 @@
     "subcategory": "Dresses",
     "inStock": true
   },
-  {
+{
     "Id": 4,
     "name": "Leather Jacket",
     "brand": "Zara",
     "price": 4999,
     "discountPrice": 3499,
+    "saleEndTime": "2024-12-22T18:30:00Z",
     "images": [
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=600&fit=crop",
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
@@ -64,12 +67,13 @@
     "subcategory": "Outerwear",
     "inStock": true
   },
-  {
+{
     "Id": 5,
     "name": "Running Sneakers",
     "brand": "Adidas",
     "price": 3999,
     "discountPrice": 2999,
+    "saleEndTime": "2024-12-17T08:00:00Z",
     "images": [
       "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=600&fit=crop",
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
@@ -80,12 +84,13 @@
     "subcategory": "Footwear",
     "inStock": true
   },
-  {
+{
     "Id": 6,
     "name": "Midi Skirt",
     "brand": "Forever 21",
     "price": 1299,
     "discountPrice": 799,
+    "saleEndTime": "2024-12-19T15:45:00Z",
     "images": [
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
       "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
@@ -112,12 +117,13 @@
     "subcategory": "Topwear",
     "inStock": true
   },
-  {
+{
     "Id": 8,
     "name": "Summer Sandals",
     "brand": "Forever 21",
     "price": 999,
     "discountPrice": 699,
+    "saleEndTime": "2024-12-21T20:00:00Z",
     "images": [
       "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&h=600&fit=crop",
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"

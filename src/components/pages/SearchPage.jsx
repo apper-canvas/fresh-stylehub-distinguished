@@ -3,6 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import ProductGrid from "@/components/organisms/ProductGrid";
 import FilterSidebar from "@/components/organisms/FilterSidebar";
+import RecentlyViewedSection from "@/components/organisms/RecentlyViewedSection";
 import Button from "@/components/atoms/Button";
 import ApperIcon from "@/components/ApperIcon";
 import { productService } from "@/services/api/productService";
@@ -177,7 +178,14 @@ const SearchPage = () => {
             <ApperIcon name="Filter" className="w-4 h-4 mr-2" />
             Filters
           </Button>
-        </div>
+</div>
+
+        {/* Recently Viewed Section */}
+        <RecentlyViewedSection
+          onAddToCart={handleAddToCart}
+          onAddToWishlist={handleAddToWishlist}
+          wishlistItems={wishlistItems}
+        />
 
         <div className="flex gap-6">
           {/* Filter Sidebar */}

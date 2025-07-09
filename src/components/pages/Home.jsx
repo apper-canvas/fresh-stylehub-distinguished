@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import HeroSection from "@/components/organisms/HeroSection";
 import CategoryCard from "@/components/molecules/CategoryCard";
 import ProductGrid from "@/components/organisms/ProductGrid";
+import RecentlyViewedSection from "@/components/organisms/RecentlyViewedSection";
 import Button from "@/components/atoms/Button";
 import ApperIcon from "@/components/ApperIcon";
 import { categoryService } from "@/services/api/categoryService";
@@ -104,7 +105,14 @@ setCategories(categoriesData);
             ))}
           </div>
         </div>
-      </section>
+</section>
+
+      {/* Recently Viewed Section */}
+      <RecentlyViewedSection
+        onAddToCart={handleAddToCart}
+        onAddToWishlist={handleAddToWishlist}
+        wishlistItems={wishlistItems}
+      />
 
       {/* Featured Products Section */}
       <section className="py-12 px-4 bg-white">

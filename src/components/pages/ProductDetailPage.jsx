@@ -9,8 +9,8 @@ import Select from "@/components/atoms/Select";
 import Loading from "@/components/ui/Loading";
 import Error from "@/components/ui/Error";
 import { productService } from "@/services/api/productService";
+import { recentlyViewedService } from "@/services/api/recentlyViewedService";
 import { toast } from "react-toastify";
-
 const ProductDetailPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -32,8 +32,9 @@ const ProductDetailPage = () => {
       setLoading(true);
       setError("");
       
-      const data = await productService.getById(parseInt(id));
+const data = await productService.getById(parseInt(id));
       setProduct(data);
+      recentlyViewedService.add(data.Id);
       setSelectedSize(data.sizes[0]);
       setSelectedColor(data.colors[0]);
     } catch (err) {

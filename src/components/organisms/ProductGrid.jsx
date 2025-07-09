@@ -22,10 +22,11 @@ const ProductGrid = ({
     setIsQuickViewOpen(true);
   };
 
-  const handleCloseQuickView = () => {
+const handleCloseQuickView = () => {
     setIsQuickViewOpen(false);
     setQuickViewProduct(null);
   };
+
   if (loading) {
     return <Loading />;
   }
@@ -34,7 +35,7 @@ const ProductGrid = ({
     return <Error message={error} />;
   }
 
-  if (!products || products.length === 0) {
+if (!products || products.length === 0) {
     return (
       <Empty 
         title="No products found"
@@ -45,7 +46,7 @@ const ProductGrid = ({
     );
   }
 
-return (
+  return (
     <>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
         {products.map((product, index) => (
@@ -74,7 +75,8 @@ return (
         onAddToWishlist={onAddToWishlist}
         isInWishlist={quickViewProduct ? wishlistItems.some(item => item.Id === quickViewProduct.Id) : false}
       />
-    </>
+</>
   );
+};
 
 export default ProductGrid;

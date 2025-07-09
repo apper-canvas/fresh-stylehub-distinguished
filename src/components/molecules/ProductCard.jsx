@@ -7,7 +7,7 @@ import Badge from "@/components/atoms/Badge";
 import Card from "@/components/atoms/Card";
 import { toast } from "react-toastify";
 
-const ProductCard = ({ product, onAddToCart, onAddToWishlist, isInWishlist }) => {
+const ProductCard = ({ product, onAddToCart, onAddToWishlist, onQuickView, isInWishlist }) => {
   const [isWishlisted, setIsWishlisted] = useState(isInWishlist);
   const [imageError, setImageError] = useState(false);
 
@@ -57,23 +57,33 @@ const ProductCard = ({ product, onAddToCart, onAddToWishlist, isInWishlist }) =>
               {discountPercentage}% OFF
             </Badge>
           )}
-
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={handleWishlistToggle}
-            className={cn(
-              "absolute top-2 right-2 p-2 rounded-full transition-all duration-200",
-              isWishlisted 
-                ? "bg-white text-primary hover:bg-primary-50" 
-                : "bg-white/80 text-gray-400 hover:text-primary hover:bg-white"
-            )}
-          >
-            <ApperIcon 
-              name={isWishlisted ? "Heart" : "Heart"} 
-              className={cn("w-4 h-4", isWishlisted && "fill-current")}
-            />
-          </Button>
+<div className="absolute top-2 right-2 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => onQuickView(product)}
+              className="p-2 rounded-full bg-white/80 text-gray-400 hover:text-primary hover:bg-white transition-all duration-200"
+            >
+              <ApperIcon name="Eye" className="w-4 h-4" />
+            </Button>
+            
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={handleWishlistToggle}
+              className={cn(
+                "p-2 rounded-full transition-all duration-200",
+                isWishlisted 
+                  ? "bg-white text-primary hover:bg-primary-50" 
+                  : "bg-white/80 text-gray-400 hover:text-primary hover:bg-white"
+              )}
+            >
+              <ApperIcon 
+                name={isWishlisted ? "Heart" : "Heart"} 
+                className={cn("w-4 h-4", isWishlisted && "fill-current")}
+              />
+            </Button>
+          </div>
         </div>
 
         <div className="p-4">

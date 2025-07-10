@@ -970,7 +970,173 @@
     ],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "colors": ["Camel", "Black", "Grey"],
-    "category": "women",
+"category": "women",
+    "subcategory": "Outerwear",
+    "inStock": true
+  },
+  {
+    "Id": 61,
+    "name": "Henley Long Sleeve",
+    "brand": "J.Crew",
+    "price": 1999,
+    "discountPrice": 1499,
+    "saleEndTime": "2024-12-29T14:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": ["Navy", "Grey", "Burgundy"],
+    "category": "men",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 62,
+    "name": "Cargo Pants",
+    "brand": "Dockers",
+    "price": 2799,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "colors": ["Khaki", "Olive", "Black"],
+    "category": "men",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 63,
+    "name": "Oxford Dress Shoes",
+    "brand": "Cole Haan",
+    "price": 5999,
+    "discountPrice": 4299,
+    "saleEndTime": "2024-12-30T18:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["7", "8", "9", "10", "11", "12"],
+    "colors": ["Black", "Brown", "Cognac"],
+    "category": "men",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 64,
+    "name": "Leather Belt",
+    "brand": "Fossil",
+    "price": 1599,
+    "discountPrice": 1199,
+    "saleEndTime": "2024-12-31T12:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["32", "34", "36", "38", "40"],
+    "colors": ["Black", "Brown", "Tan"],
+    "category": "men",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 65,
+    "name": "Denim Jacket",
+    "brand": "Levi's",
+    "price": 3499,
+    "discountPrice": 2599,
+    "saleEndTime": "2024-12-28T20:30:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": ["Light Blue", "Dark Blue", "Black"],
+    "category": "men",
+    "subcategory": "Outerwear",
+    "inStock": true
+  },
+  {
+    "Id": 66,
+    "name": "Performance Tank Top",
+    "brand": "Under Armour",
+    "price": 1299,
+    "discountPrice": 999,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": ["Black", "Grey", "Navy"],
+    "category": "men",
+    "subcategory": "Activewear",
+    "inStock": true
+  },
+  {
+    "Id": 67,
+    "name": "Chino Shorts",
+    "brand": "Banana Republic",
+    "price": 1899,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "colors": ["Khaki", "Navy", "Olive"],
+    "category": "men",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 68,
+    "name": "Canvas Sneakers",
+    "brand": "Converse",
+    "price": 2199,
+    "discountPrice": 1649,
+    "saleEndTime": "2025-01-02T15:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["7", "8", "9", "10", "11", "12"],
+    "colors": ["White", "Black", "Navy"],
+    "category": "men",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 69,
+    "name": "Baseball Cap",
+    "brand": "New Era",
+    "price": 999,
+    "discountPrice": 799,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Navy", "Black", "Grey"],
+    "category": "men",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 70,
+    "name": "Windbreaker Jacket",
+    "brand": "Patagonia",
+    "price": 4299,
+    "discountPrice": 3199,
+    "saleEndTime": "2025-01-03T10:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": ["Navy", "Forest Green", "Black"],
+    "category": "men",
     "subcategory": "Outerwear",
     "inStock": true
   }

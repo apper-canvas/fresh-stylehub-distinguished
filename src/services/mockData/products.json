@@ -1137,7 +1137,337 @@
     "sizes": ["S", "M", "L", "XL", "XXL"],
     "colors": ["Navy", "Forest Green", "Black"],
     "category": "men",
+"category": "men",
     "subcategory": "Outerwear",
     "inStock": true
+  },
+  {
+    "Id": 71,
+    "name": "Kids Cartoon T-Shirt",
+    "brand": "H&M",
+    "price": 699,
+    "discountPrice": 549,
+    "saleEndTime": "2025-01-05T14:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "colors": ["Blue", "Pink", "Green"],
+    "category": "kids",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 72,
+    "name": "Kids Hoodie",
+    "brand": "Nike",
+    "price": 1299,
+    "discountPrice": 999,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["4-5Y", "6-7Y", "8-9Y", "10-11Y"],
+    "colors": ["Navy", "Pink", "Grey"],
+    "category": "kids",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 73,
+    "name": "Kids Leggings",
+    "brand": "Carter's",
+    "price": 599,
+    "discountPrice": 449,
+    "saleEndTime": "2025-01-04T16:30:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "colors": ["Black", "Purple", "Pink"],
+    "category": "kids",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 74,
+    "name": "Kids Jeans",
+    "brand": "Zara",
+    "price": 899,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["4-5Y", "6-7Y", "8-9Y", "10-11Y"],
+    "colors": ["Blue", "Light Blue", "Black"],
+    "category": "kids",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 75,
+    "name": "Kids Light-Up Sneakers",
+    "brand": "Skechers",
+    "price": 1799,
+    "discountPrice": 1399,
+    "saleEndTime": "2025-01-06T12:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["10", "11", "12", "13", "1"],
+    "colors": ["Multi", "Pink", "Blue"],
+    "category": "kids",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 76,
+    "name": "Kids Sundress",
+    "brand": "H&M",
+    "price": 799,
+    "discountPrice": 599,
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "colors": ["Yellow", "Pink", "Blue"],
+    "category": "kids",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 77,
+    "name": "Kids Sandals",
+    "brand": "Crocs",
+    "price": 999,
+    "discountPrice": 799,
+    "saleEndTime": "2025-01-07T18:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["10", "11", "12", "13", "1"],
+    "colors": ["Blue", "Pink", "Green"],
+    "category": "kids",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 78,
+    "name": "Kids Fleece Jacket",
+    "brand": "North Face",
+    "price": 1999,
+    "discountPrice": 1499,
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["4-5Y", "6-7Y", "8-9Y", "10-11Y"],
+    "colors": ["Navy", "Pink", "Red"],
+    "category": "kids",
+    "subcategory": "Outerwear",
+    "inStock": true
+  },
+  {
+    "Id": 79,
+    "name": "Kids Cargo Shorts",
+    "brand": "Gap",
+    "price": 699,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["4-5Y", "6-7Y", "8-9Y", "10-11Y"],
+    "colors": ["Khaki", "Navy", "Green"],
+    "category": "kids",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 80,
+    "name": "Kids Baseball Cap",
+    "brand": "Nike",
+    "price": 649,
+    "discountPrice": 499,
+    "saleEndTime": "2025-01-08T10:30:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Blue", "Red", "Black"],
+    "category": "kids",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 81,
+    "name": "Kids Polka Dot Pajamas",
+    "brand": "Carter's",
+    "price": 899,
+    "discountPrice": 699,
+    "images": [
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "colors": ["Pink", "Blue", "Purple"],
+    "category": "kids",
+    "subcategory": "Sleepwear",
+    "inStock": true
+  },
+  {
+    "Id": 82,
+    "name": "Kids Sweatpants",
+    "brand": "Adidas",
+    "price": 799,
+    "discountPrice": 599,
+    "saleEndTime": "2025-01-09T14:15:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["4-5Y", "6-7Y", "8-9Y", "10-11Y"],
+    "colors": ["Grey", "Navy", "Pink"],
+    "category": "kids",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 83,
+    "name": "Kids Raincoat",
+    "brand": "Gap",
+    "price": 1299,
+    "discountPrice": 999,
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["4-5Y", "6-7Y", "8-9Y", "10-11Y"],
+    "colors": ["Yellow", "Blue", "Pink"],
+    "category": "kids",
+    "subcategory": "Outerwear",
+    "inStock": true
+  },
+  {
+    "Id": 84,
+    "name": "Kids Hair Clips Set",
+    "brand": "Claire's",
+    "price": 399,
+    "discountPrice": 299,
+    "saleEndTime": "2025-01-10T11:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Multi", "Pink", "Purple"],
+    "category": "kids",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 85,
+    "name": "Kids Ankle Boots",
+    "brand": "Timberland",
+    "price": 1599,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["10", "11", "12", "13", "1"],
+    "colors": ["Brown", "Black", "Pink"],
+    "category": "kids",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 86,
+    "name": "Kids Striped Shirt",
+    "brand": "Gap",
+    "price": 649,
+    "discountPrice": 489,
+    "saleEndTime": "2025-01-11T15:45:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "colors": ["Navy/White", "Pink/White", "Blue/White"],
+    "category": "kids",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 87,
+    "name": "Kids Winter Coat",
+    "brand": "Columbia",
+    "price": 2499,
+    "discountPrice": 1899,
+    "saleEndTime": "2025-01-12T09:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["4-5Y", "6-7Y", "8-9Y", "10-11Y"],
+    "colors": ["Navy", "Pink", "Red"],
+    "category": "kids",
+    "subcategory": "Outerwear",
+    "inStock": true
+  },
+  {
+    "Id": 88,
+    "name": "Kids Nightgown",
+    "brand": "Disney",
+    "price": 799,
+    "discountPrice": 599,
+    "images": [
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "colors": ["Pink", "Purple", "Blue"],
+    "category": "kids",
+    "subcategory": "Sleepwear",
+    "inStock": true
+  },
+  {
+    "Id": 89,
+    "name": "Kids Mini Backpack",
+    "brand": "JanSport",
+    "price": 1199,
+    "discountPrice": 899,
+    "saleEndTime": "2025-01-13T13:20:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Pink", "Blue", "Purple"],
+    "category": "kids",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 90,
+    "name": "Kids Canvas Shoes",
+    "brand": "Converse",
+    "price": 1299,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["10", "11", "12", "13", "1"],
+    "colors": ["White", "Pink", "Blue"],
+    "category": "kids",
+    "subcategory": "Footwear",
+    "inStock": true
   }
-]

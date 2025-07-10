@@ -802,8 +802,176 @@
     ],
     "sizes": ["One Size"],
     "colors": ["Black", "Brown"],
-    "category": "beauty",
+"category": "beauty",
     "subcategory": "Makeup",
+    "inStock": true
+  },
+  {
+    "Id": 51,
+    "name": "Silk Blouse",
+    "brand": "Zara",
+    "price": 2999,
+    "discountPrice": 2199,
+    "saleEndTime": "2024-12-25T14:30:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Cream", "Navy", "Burgundy"],
+    "category": "women",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 52,
+    "name": "High-Waisted Leggings",
+    "brand": "Lululemon",
+    "price": 1899,
+    "discountPrice": 1399,
+    "saleEndTime": "2024-12-23T10:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1506629905061-6d4783eb9f2d?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Black", "Grey", "Navy"],
+    "category": "women",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 53,
+    "name": "Cocktail Dress",
+    "brand": "Mango",
+    "price": 4299,
+    "discountPrice": 3199,
+    "saleEndTime": "2024-12-26T20:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566479179817-c9b8ba9e0e1f?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Black", "Emerald", "Navy"],
+    "category": "women",
+    "subcategory": "Dresses",
+    "inStock": true
+  },
+  {
+    "Id": 54,
+    "name": "Block Heel Pumps",
+    "brand": "Nine West",
+    "price": 3199,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["5", "6", "7", "8", "9", "10"],
+    "colors": ["Black", "Nude", "Red"],
+    "category": "women",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 55,
+    "name": "Statement Necklace",
+    "brand": "Pandora",
+    "price": 2799,
+    "discountPrice": 1999,
+    "saleEndTime": "2024-12-24T16:45:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Gold", "Silver", "Rose Gold"],
+    "category": "women",
+    "subcategory": "Accessories",
+    "inStock": true
+  },
+  {
+    "Id": 56,
+    "name": "Cashmere Sweater",
+    "brand": "Uniqlo",
+    "price": 3999,
+    "discountPrice": 2999,
+    "saleEndTime": "2024-12-22T12:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Camel", "Pink", "Grey"],
+    "category": "women",
+    "subcategory": "Topwear",
+    "inStock": true
+  },
+  {
+    "Id": 57,
+    "name": "Wide-Leg Trousers",
+    "brand": "COS",
+    "price": 2899,
+    "discountPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Black", "Beige", "Olive"],
+    "category": "women",
+    "subcategory": "Bottomwear",
+    "inStock": true
+  },
+  {
+    "Id": 58,
+    "name": "Midi Shirt Dress",
+    "brand": "& Other Stories",
+    "price": 2199,
+    "discountPrice": 1649,
+    "saleEndTime": "2024-12-27T09:30:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566479179817-c9b8ba9e0e1f?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Striped", "White", "Blue"],
+    "category": "women",
+    "subcategory": "Dresses",
+    "inStock": true
+  },
+  {
+    "Id": 59,
+    "name": "Ballet Flats",
+    "brand": "Tory Burch",
+    "price": 4599,
+    "discountPrice": 3299,
+    "saleEndTime": "2024-12-21T18:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["5", "6", "7", "8", "9", "10"],
+    "colors": ["Black", "Tan", "Pink"],
+    "category": "women",
+    "subcategory": "Footwear",
+    "inStock": true
+  },
+  {
+    "Id": 60,
+    "name": "Wool Coat",
+    "brand": "Massimo Dutti",
+    "price": 8999,
+    "discountPrice": 6999,
+    "saleEndTime": "2024-12-28T15:00:00Z",
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Camel", "Black", "Grey"],
+    "category": "women",
+    "subcategory": "Outerwear",
     "inStock": true
   }
 ]

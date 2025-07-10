@@ -321,9 +321,9 @@
       "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=500&h=600&fit=crop"
     ],
     "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Navy", "Grey", "Black"],
+"colors": ["Navy", "Grey", "Black"],
     "category": "women",
-"subcategory": "Outerwear",
+    "subcategory": "Outerwear",
     "inStock": true
   },
   {
@@ -800,9 +800,9 @@
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&h=600&fit=crop",
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
     ],
-    "sizes": ["One Size"],
+"sizes": ["One Size"],
     "colors": ["Black", "Brown"],
-"category": "beauty",
+    "category": "beauty",
     "subcategory": "Makeup",
     "inStock": true
   },
@@ -968,9 +968,9 @@
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=600&fit=crop",
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+"sizes": ["XS", "S", "M", "L", "XL"],
     "colors": ["Camel", "Black", "Grey"],
-"category": "women",
+    "category": "women",
     "subcategory": "Outerwear",
     "inStock": true
   },
@@ -1135,9 +1135,8 @@
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=600&fit=crop"
     ],
     "sizes": ["S", "M", "L", "XL", "XXL"],
-    "colors": ["Navy", "Forest Green", "Black"],
+"colors": ["Navy", "Forest Green", "Black"],
     "category": "men",
-"category": "men",
     "subcategory": "Outerwear",
     "inStock": true
   },
@@ -1467,7 +1466,8 @@
     ],
     "sizes": ["10", "11", "12", "13", "1"],
     "colors": ["White", "Pink", "Blue"],
-    "category": "kids",
+"category": "kids",
     "subcategory": "Footwear",
     "inStock": true
   }
+]
